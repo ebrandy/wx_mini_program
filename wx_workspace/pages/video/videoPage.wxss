@@ -1,0 +1,19 @@
+/* pages/video/videoPage.wxss */
+.startscan{
+position:fixed;
+top:82px;
+left:0;
+right:0;
+margin:auto;
+z-index:888;
+text-align:center;
+}
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+button {width:149px;}

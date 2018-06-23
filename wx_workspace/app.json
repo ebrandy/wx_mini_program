@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/video/video",
+    "pages/layout/footer",
+    "pages/login/register",
+    "pages/login/login",
+    "pages/layout/nav",
+    "pages/famousTeacher/famousTeacher",
+    "pages/prepareExam/prepareExam",
+    "pages/help/help",
+    "pages/famousTeacher/ftInfo",
+    "pages/prepareExam/peInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00b26a",
+    "navigationBarTitleText": "点滴学习",
+    "navigationBarTextStyle": "light"
+  }
+}

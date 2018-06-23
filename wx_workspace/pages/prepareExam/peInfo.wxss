@@ -1,0 +1,65 @@
+/* pages/famousTeacher/ftInfo.wxss */
+
+.page-body {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.flex-wrp {
+  display: flex;
+}
+
+.flex-title {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  background: #e4e4e4;
+  padding-left: 8px;
+}
+
+.flex-cont {
+  border-bottom: 1px dashed #b3b3b3;
+  line-height: 40px;
+  padding-left: 8px;
+  font-size: 14px;
+  color: #5d5d5d;
+}
+
+.flex-cont .bc_o {
+  line-height: 80px;
+  overflow: hidden;
+  height: 80px;
+}
+
+.flex-cont .bc_t {
+  line-height: 80px;
+  overflow: hidden;
+  height: 80px;
+}
+.flex-cont .bc_s {
+  line-height: 80px;
+  overflow: hidden;
+  height: 80px;
+  color: #00b26a;
+}
+.flex-cont .bc_fo {
+  overflow: hidden;
+  height: 80px;
+}
+.bc_o {
+  width: 15%;
+}
+
+.bc_t {
+  width: 50%;
+}
+
+.bc_s {
+  width: 18%;
+}
+
+.bc_fo {
+  width: 17%;
+}

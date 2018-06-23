@@ -1,0 +1,12 @@
+<!--pages/help/help.wxml-->
+<view class="page-body" style="padding:0;height:100%;">
+<swiper class="helpSwiper" indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item style="height:100%;">
+      <image mode="aspectFit" src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+</view>

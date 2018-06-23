@@ -1,0 +1,7 @@
+<!--pages/layout/nav.wxml-->
+<view class='nav'>
+<image data-v="1" data-upimg="../image/ddstudy_user_up.png"  data-downimg="../image/ddstudy_user_down.png" bind:touchstart="onimagetouchstart" bind:touchend="onimagetouchend" bindtap="ontapLogin" src="{{headimage}}">
+</image>
+<image data-v="2" data-upimg="../image/ddstudy_help_up.png"  data-downimg="../image/ddstudy_help_down.png" bind:touchstart="onimagetouchstart" bind:touchend="onimagetouchend" bindtap="ontapHelp" src="{{helpimage}}">
+</image>
+</view>

@@ -1,0 +1,15 @@
+<!--index/index.wxml-->
+<include src="../layout/nav.wxml"/>
+<block wx:if="{{id==='0'}}">  
+  <include src="../video/videoPage.wxml" />  
+</block>
+<block wx:if="{{id==='1'}}">  
+  <include src="../inputCode/inputCode.wxml" />  
+</block>
+<block wx:if="{{id==='2'}}">  
+  <include src="../famousTeacher/famousTeacher.wxml" />  
+</block>  
+<block wx:if="{{id==='3'}}">  
+  <include src="../prepareExam/prepareExam.wxml" />  
+</block>  
+<include src="../layout/footer.wxml"/>

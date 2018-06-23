@@ -1,0 +1,9 @@
+.inputCodeinput{
+background-color:#ffffff;
+height:42px;
+line-height:42px;
+width:165px;
+border-radius:4px;
+display:inline-block;
+vertical-align:middle;
+}

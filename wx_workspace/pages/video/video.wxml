@@ -1,0 +1,18 @@
+<view class="page-body">
+  <view class="page-section tc">
+    <video id="myVideo" src="{{src}}" poster="" binderror="videoErrorCallback" enable-danmu danmu-btn controls autoplay bindplay="onbindPlay">
+    
+   <cover-view hidden="{{reply}}">
+    <cover-image class="videoImg" src="../image/english_bak.png">
+    </cover-image>
+    </cover-view>
+    </video>
+    <view>{{unsupport}}</view>
+    <!--<view class="btn-area">
+      <button bindtap="bindPlay" class="page-body-button" type="primary">播放</button>
+      <button bindtap="bindPause" class="page-body-button" type="primary">暂停</button>
+      http://223.202.58.53:8080/bfjycb/bfjycb_video/ckVideo/0155-0039-5761.mp4
+      http://223.202.58.53:8080/bfjycb/bfjycb_video/ckVideo/0132-0036-1376.mp4
+    </view>-->
+  </view>
+</view>

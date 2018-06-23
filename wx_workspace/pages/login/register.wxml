@@ -1,0 +1,68 @@
+<!--pages/login/register.wxml-->
+<view class="container">  
+  <view class="login-from">  
+  
+    <!--账号-->  
+    <view class="inputView">  
+      <label class="loginLab">用户名*</label>  
+      <view class="inputwrap">
+      <input class="inputText" placeholder="请输入9位数字学号" bindinput="phoneInput" />
+      </view>  
+    </view>  
+    <view class="line"></view>  
+    <view class="inputView">  
+      <label class="loginLab">手机号*</label>  
+      <view class="inputwrap">
+      <input class="inputText" placeholder="用来找回密码" bindinput="phoneInput" />  
+      </view>
+    </view>  
+    <view class="line"></view>  
+    <view class="inputView">  
+      <label class="loginLab">密码*</label>  
+      <view class="inputwrap">
+      <input class="inputText" placeholder="请输入6位数字密码" bindinput="phoneInput" />  
+      </view>
+    </view>  
+    <view class="line"></view>  
+    <view class="inputView">  
+      <label class="loginLab">确认密码*</label>  
+      <view class="inputwrap">
+      <input class="inputText" placeholder="请再次输入密码" bindinput="phoneInput" />  
+      </view>
+    </view>  
+    <view class="line"></view>  
+    <view class="inputView">  
+      <label class="loginLab">年级*</label>  
+      <view class="inputwrap">
+      <picker bindchange="bindgradePickerChange" value='{{gradeindex}}' range="{{grade}}">
+    <view class="label-right">
+        {{grade[gradeindex]}}
+    </view>
+
+</picker> 
+    </view>
+    </view>  
+    <view class="line"></view>  
+    <view class="inputView">  
+      <label class="loginLab">学校*</label>  
+      <view class="inputwrap">
+      <input class="inputText" placeholder="请正确填写" bindinput="phoneInput" />  
+      </view>
+    </view>  
+    <view class="line"></view> 
+    <view class="inputView">  
+      <label class="loginLab">区县*</label>  
+      <view class="inputwrap">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+    {{array[index]}}
+    </view>
+  </picker>
+  </view>
+    </view>  
+    <!--按钮-->  
+    <view class="loginBtnView">  
+      <image data-upimg="../image/ddstudy_register_btn_up.png"  data-downimg="../image/ddstudy_register_btn_down.png" bind:touchstart="onimagetouchstart" bind:touchend="onimagetouchend" src='{{headimage}}' bindtap="bindregister"></image>
+    </view>  
+  </view>  
+</view>  

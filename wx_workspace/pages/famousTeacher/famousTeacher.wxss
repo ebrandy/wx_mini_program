@@ -1,0 +1,26 @@
+.xkpicker {
+  width: 90px;
+  height: 32px;
+  margin: 0 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+}
+.xkpicker::after{
+  position: absolute;
+  right: 8px;
+  top: 13px;
+  content: '';
+      display:inline-block;  
+    width:0;  
+    height:0;  
+    border-left:5px solid transparent;  
+    border-right: 5px solid transparent;  
+    border-top:8px solid #c0c0c0;
+}
+.xkpicker view {
+  line-height: 32px;
+  height: 32px;
+}

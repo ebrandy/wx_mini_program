@@ -1,0 +1,35 @@
+<view class="container">  
+  <view class="login-from">  
+  
+    <!--账号-->  
+    <view class="inputView">
+    
+      <label class="loginLab"><image class="nameImage" src="../image/name.png"></image>用户名</label>
+      <view class="inputwrap">
+      <input class="inputText" placeholder="请输入用户名" bindinput="phoneInput" />
+      </view>
+    </view>  
+    <view class="line"></view>  
+  
+    <!--密码-->  
+    <view class="inputView">  
+    
+      <label class="loginLab"><image class="keyImage" src="../image/key.png"></image>  密码</label>  
+      <view class="inputwrap">
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+      </view>
+    </view> 
+    <!--按钮-->  
+    <view class="loginBtnView">  
+      <image data-upimg="../image/ddstudy_login_btn_up.png"  data-downimg="../image/ddstudy_login_btn_down.png" bind:touchstart="onimagetouchstart" bind:touchend="onimagetouchend" src='{{headimage}}' bindtap="login"></image>
+    </view>  
+  </view>  
+  <view class="loginFooter">
+    <view class="logintab">
+        <view></view>
+        <view data-id="2" bindtap="onclickfirst">忘记密码</view>
+        <view data-id="3" bindtap="onclicksecond">立即注册</view>
+        <view></view>
+    </view>
+</view>
+</view>  

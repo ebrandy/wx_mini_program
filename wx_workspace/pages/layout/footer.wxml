@@ -1,0 +1,9 @@
+<view class="footer">
+    <view class="tab-bar">
+        <view data-id="0" style="{{0 == id?'color: #000':'color:#fff'}}" bindtap="onclickswitchPages">拍摄观看</view>
+        <view data-id="1" style="{{1 == id?'color: #000':'color:#fff'}}" bindtap="onclickswitchPages">串码观看</view>
+        <view data-id="2" style="{{2 == id?'color: #000':'color:#fff'}}" bindtap="onclickswitchPages">名师微课</view>
+        <view data-id="3" style="{{3 == id?'color: #000':'color:#fff'}}" bindtap="onclickswitchPages">中考备考</view>
+    </view>
+</view>
+

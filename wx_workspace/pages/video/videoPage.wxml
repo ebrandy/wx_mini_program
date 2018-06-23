@@ -1,0 +1,8 @@
+<scroll-view class="container">
+<div class="bg-box">
+<image class='bgimg' src='../image/ddlearning_background.png'></image>
+</div>
+<view class='startscan'>
+<button class="" type="primary" bindtap="startscan"> 点击开始扫描 </button>
+</view>
+</scroll-view>
